@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3A93D821C0CE1100C0BFAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A93D721C0CE1100C0BFAD /* AppDelegate.m */; };
+		0C3A93DB21C0CE1100C0BFAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A93DA21C0CE1100C0BFAD /* ViewController.m */; };
+		0C3A93DE21C0CE1100C0BFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A93DC21C0CE1100C0BFAD /* Main.storyboard */; };
+		0C3A93E021C0CE1100C0BFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A93DF21C0CE1100C0BFAD /* Assets.xcassets */; };
+		0C3A93E321C0CE1100C0BFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A93E121C0CE1100C0BFAD /* LaunchScreen.storyboard */; };
+		0C3A93E621C0CE1100C0BFAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A93E521C0CE1100C0BFAD /* main.m */; };
+		0C3A93F021C0CE1100C0BFAD /* LotteryDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A93EF21C0CE1100C0BFAD /* LotteryDrawTests.m */; };
+		0C3A93FB21C0CE1100C0BFAD /* LotteryDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A93FA21C0CE1100C0BFAD /* LotteryDrawUITests.m */; };
+		0C3A940E21C0CF3A00C0BFAD /* EMLotterDrwaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A940C21C0CF3A00C0BFAD /* EMLotterDrwaController.m */; };
+		0C3A940F21C0CF3A00C0BFAD /* EMLotterDrwaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A940D21C0CF3A00C0BFAD /* EMLotterDrwaController.xib */; };
+		0C3A941321C0D00300C0BFAD /* EMTurntableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A941121C0D00300C0BFAD /* EMTurntableCell.m */; };
+		0C3A941421C0D00300C0BFAD /* EMTurntableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A941221C0D00300C0BFAD /* EMTurntableCell.xib */; };
+		0C3A941821C0D0E400C0BFAD /* LotterDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A941721C0D0E400C0BFAD /* LotterDrawView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C3A93EC21C0CE1100C0BFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C3A93CB21C0CE1000C0BFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C3A93D221C0CE1000C0BFAD;
+			remoteInfo = LotteryDraw;
+		};
+		0C3A93F721C0CE1100C0BFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C3A93CB21C0CE1000C0BFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C3A93D221C0CE1000C0BFAD;
+			remoteInfo = LotteryDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C3A93D321C0CE1000C0BFAD /* LotteryDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3A93D621C0CE1100C0BFAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C3A93D721C0CE1100C0BFAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C3A93D921C0CE1100C0BFAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C3A93DA21C0CE1100C0BFAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C3A93DD21C0CE1100C0BFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C3A93DF21C0CE1100C0BFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C3A93E221C0CE1100C0BFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C3A93E421C0CE1100C0BFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3A93E521C0CE1100C0BFAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C3A93EB21C0CE1100C0BFAD /* LotteryDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3A93EF21C0CE1100C0BFAD /* LotteryDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryDrawTests.m; sourceTree = "<group>"; };
+		0C3A93F121C0CE1100C0BFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3A93F621C0CE1100C0BFAD /* LotteryDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3A93FA21C0CE1100C0BFAD /* LotteryDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryDrawUITests.m; sourceTree = "<group>"; };
+		0C3A93FC21C0CE1100C0BFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3A940B21C0CF3A00C0BFAD /* EMLotterDrwaController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMLotterDrwaController.h; sourceTree = "<group>"; };
+		0C3A940C21C0CF3A00C0BFAD /* EMLotterDrwaController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMLotterDrwaController.m; sourceTree = "<group>"; };
+		0C3A940D21C0CF3A00C0BFAD /* EMLotterDrwaController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EMLotterDrwaController.xib; sourceTree = "<group>"; };
+		0C3A941021C0D00300C0BFAD /* EMTurntableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMTurntableCell.h; sourceTree = "<group>"; };
+		0C3A941121C0D00300C0BFAD /* EMTurntableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMTurntableCell.m; sourceTree = "<group>"; };
+		0C3A941221C0D00300C0BFAD /* EMTurntableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EMTurntableCell.xib; sourceTree = "<group>"; };
+		0C3A941621C0D0E400C0BFAD /* LotterDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotterDrawView.h; sourceTree = "<group>"; };
+		0C3A941721C0D0E400C0BFAD /* LotterDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotterDrawView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C3A93D021C0CE1000C0BFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3A93E821C0CE1100C0BFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3A93F321C0CE1100C0BFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3A93CA21C0CE1000C0BFAD = {
+			isa = PBXGroup;
+			children = (
+				0C3A93D521C0CE1000C0BFAD /* LotteryDraw */,
+				0C3A93EE21C0CE1100C0BFAD /* LotteryDrawTests */,
+				0C3A93F921C0CE1100C0BFAD /* LotteryDrawUITests */,
+				0C3A93D421C0CE1000C0BFAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C3A93D421C0CE1000C0BFAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C3A93D321C0CE1000C0BFAD /* LotteryDraw.app */,
+				0C3A93EB21C0CE1100C0BFAD /* LotteryDrawTests.xctest */,
+				0C3A93F621C0CE1100C0BFAD /* LotteryDrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C3A93D521C0CE1000C0BFAD /* LotteryDraw */ = {
+			isa = PBXGroup;
+			children = (
+				0C3A941521C0D0D000C0BFAD /* LotterDrawView */,
+				0C3A940A21C0CF0000C0BFAD /* Controllers */,
+				0C3A940821C0CEFF00C0BFAD /* Models */,
+				0C3A940921C0CF0000C0BFAD /* Views */,
+				0C3A93D621C0CE1100C0BFAD /* AppDelegate.h */,
+				0C3A93D721C0CE1100C0BFAD /* AppDelegate.m */,
+				0C3A93D921C0CE1100C0BFAD /* ViewController.h */,
+				0C3A93DA21C0CE1100C0BFAD /* ViewController.m */,
+				0C3A93DC21C0CE1100C0BFAD /* Main.storyboard */,
+				0C3A93DF21C0CE1100C0BFAD /* Assets.xcassets */,
+				0C3A93E121C0CE1100C0BFAD /* LaunchScreen.storyboard */,
+				0C3A93E421C0CE1100C0BFAD /* Info.plist */,
+				0C3A93E521C0CE1100C0BFAD /* main.m */,
+			);
+			path = LotteryDraw;
+			sourceTree = "<group>";
+		};
+		0C3A93EE21C0CE1100C0BFAD /* LotteryDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C3A93EF21C0CE1100C0BFAD /* LotteryDrawTests.m */,
+				0C3A93F121C0CE1100C0BFAD /* Info.plist */,
+			);
+			path = LotteryDrawTests;
+			sourceTree = "<group>";
+		};
+		0C3A93F921C0CE1100C0BFAD /* LotteryDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C3A93FA21C0CE1100C0BFAD /* LotteryDrawUITests.m */,
+				0C3A93FC21C0CE1100C0BFAD /* Info.plist */,
+			);
+			path = LotteryDrawUITests;
+			sourceTree = "<group>";
+		};
+		0C3A940821C0CEFF00C0BFAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0C3A940921C0CF0000C0BFAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C3A941021C0D00300C0BFAD /* EMTurntableCell.h */,
+				0C3A941121C0D00300C0BFAD /* EMTurntableCell.m */,
+				0C3A941221C0D00300C0BFAD /* EMTurntableCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C3A940A21C0CF0000C0BFAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C3A940B21C0CF3A00C0BFAD /* EMLotterDrwaController.h */,
+				0C3A940C21C0CF3A00C0BFAD /* EMLotterDrwaController.m */,
+				0C3A940D21C0CF3A00C0BFAD /* EMLotterDrwaController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0C3A941521C0D0D000C0BFAD /* LotterDrawView */ = {
+			isa = PBXGroup;
+			children = (
+				0C3A941621C0D0E400C0BFAD /* LotterDrawView.h */,
+				0C3A941721C0D0E400C0BFAD /* LotterDrawView.m */,
+			);
+			path = LotterDrawView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C3A93D221C0CE1000C0BFAD /* LotteryDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3A93FF21C0CE1100C0BFAD /* Build configuration list for PBXNativeTarget "LotteryDraw" */;
+			buildPhases = (
+				0C3A93CF21C0CE1000C0BFAD /* Sources */,
+				0C3A93D021C0CE1000C0BFAD /* Frameworks */,
+				0C3A93D121C0CE1000C0BFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotteryDraw;
+			productName = LotteryDraw;
+			productReference = 0C3A93D321C0CE1000C0BFAD /* LotteryDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C3A93EA21C0CE1100C0BFAD /* LotteryDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3A940221C0CE1100C0BFAD /* Build configuration list for PBXNativeTarget "LotteryDrawTests" */;
+			buildPhases = (
+				0C3A93E721C0CE1100C0BFAD /* Sources */,
+				0C3A93E821C0CE1100C0BFAD /* Frameworks */,
+				0C3A93E921C0CE1100C0BFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C3A93ED21C0CE1100C0BFAD /* PBXTargetDependency */,
+			);
+			name = LotteryDrawTests;
+			productName = LotteryDrawTests;
+			productReference = 0C3A93EB21C0CE1100C0BFAD /* LotteryDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C3A93F521C0CE1100C0BFAD /* LotteryDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3A940521C0CE1100C0BFAD /* Build configuration list for PBXNativeTarget "LotteryDrawUITests" */;
+			buildPhases = (
+				0C3A93F221C0CE1100C0BFAD /* Sources */,
+				0C3A93F321C0CE1100C0BFAD /* Frameworks */,
+				0C3A93F421C0CE1100C0BFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C3A93F821C0CE1100C0BFAD /* PBXTargetDependency */,
+			);
+			name = LotteryDrawUITests;
+			productName = LotteryDrawUITests;
+			productReference = 0C3A93F621C0CE1100C0BFAD /* LotteryDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C3A93CB21C0CE1000C0BFAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ermao;
+				TargetAttributes = {
+					0C3A93D221C0CE1000C0BFAD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0C3A93EA21C0CE1100C0BFAD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0C3A93D221C0CE1000C0BFAD;
+					};
+					0C3A93F521C0CE1100C0BFAD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0C3A93D221C0CE1000C0BFAD;
+					};
+				};
+			};
+			buildConfigurationList = 0C3A93CE21C0CE1000C0BFAD /* Build configuration list for PBXProject "LotteryDraw" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C3A93CA21C0CE1000C0BFAD;
+			productRefGroup = 0C3A93D421C0CE1000C0BFAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C3A93D221C0CE1000C0BFAD /* LotteryDraw */,
+				0C3A93EA21C0CE1100C0BFAD /* LotteryDrawTests */,
+				0C3A93F521C0CE1100C0BFAD /* LotteryDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C3A93D121C0CE1000C0BFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3A93E321C0CE1100C0BFAD /* LaunchScreen.storyboard in Resources */,
+				0C3A940F21C0CF3A00C0BFAD /* EMLotterDrwaController.xib in Resources */,
+				0C3A941421C0D00300C0BFAD /* EMTurntableCell.xib in Resources */,
+				0C3A93E021C0CE1100C0BFAD /* Assets.xcassets in Resources */,
+				0C3A93DE21C0CE1100C0BFAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3A93E921C0CE1100C0BFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3A93F421C0CE1100C0BFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C3A93CF21C0CE1000C0BFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3A93DB21C0CE1100C0BFAD /* ViewController.m in Sources */,
+				0C3A941321C0D00300C0BFAD /* EMTurntableCell.m in Sources */,
+				0C3A941821C0D0E400C0BFAD /* LotterDrawView.m in Sources */,
+				0C3A940E21C0CF3A00C0BFAD /* EMLotterDrwaController.m in Sources */,
+				0C3A93E621C0CE1100C0BFAD /* main.m in Sources */,
+				0C3A93D821C0CE1100C0BFAD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3A93E721C0CE1100C0BFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3A93F021C0CE1100C0BFAD /* LotteryDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3A93F221C0CE1100C0BFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3A93FB21C0CE1100C0BFAD /* LotteryDrawUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C3A93ED21C0CE1100C0BFAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C3A93D221C0CE1000C0BFAD /* LotteryDraw */;
+			targetProxy = 0C3A93EC21C0CE1100C0BFAD /* PBXContainerItemProxy */;
+		};
+		0C3A93F821C0CE1100C0BFAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C3A93D221C0CE1000C0BFAD /* LotteryDraw */;
+			targetProxy = 0C3A93F721C0CE1100C0BFAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C3A93DC21C0CE1100C0BFAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C3A93DD21C0CE1100C0BFAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C3A93E121C0CE1100C0BFAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C3A93E221C0CE1100C0BFAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C3A93FD21C0CE1100C0BFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C3A93FE21C0CE1100C0BFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C3A940021C0CE1100C0BFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LotteryDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LotteryDraw.Ermao.LotteryDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C3A940121C0CE1100C0BFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LotteryDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LotteryDraw.Ermao.LotteryDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C3A940321C0CE1100C0BFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LotteryDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LotteryDraw.Ermao.LotteryDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotteryDraw.app/LotteryDraw";
+			};
+			name = Debug;
+		};
+		0C3A940421C0CE1100C0BFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LotteryDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LotteryDraw.Ermao.LotteryDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotteryDraw.app/LotteryDraw";
+			};
+			name = Release;
+		};
+		0C3A940621C0CE1100C0BFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LotteryDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LotteryDraw.Ermao.LotteryDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LotteryDraw;
+			};
+			name = Debug;
+		};
+		0C3A940721C0CE1100C0BFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LotteryDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LotteryDraw.Ermao.LotteryDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LotteryDraw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3A93CE21C0CE1000C0BFAD /* Build configuration list for PBXProject "LotteryDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3A93FD21C0CE1100C0BFAD /* Debug */,
+				0C3A93FE21C0CE1100C0BFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3A93FF21C0CE1100C0BFAD /* Build configuration list for PBXNativeTarget "LotteryDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3A940021C0CE1100C0BFAD /* Debug */,
+				0C3A940121C0CE1100C0BFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3A940221C0CE1100C0BFAD /* Build configuration list for PBXNativeTarget "LotteryDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3A940321C0CE1100C0BFAD /* Debug */,
+				0C3A940421C0CE1100C0BFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3A940521C0CE1100C0BFAD /* Build configuration list for PBXNativeTarget "LotteryDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3A940621C0CE1100C0BFAD /* Debug */,
+				0C3A940721C0CE1100C0BFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C3A93CB21C0CE1000C0BFAD /* Project object */;
+}
